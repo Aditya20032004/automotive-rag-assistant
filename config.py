@@ -19,7 +19,7 @@ CHUNK_OVERLAP = 100
 RETRIEVAL_TOP_K = 4
 
 # Model Configurations
-EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL_NAME = "BAAI/bge-small-en-v1.5"
 LLM_MODEL_NAME = "phi3:mini" # Ollama identifier
 
 # Ensure directories exist on import
